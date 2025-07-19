@@ -1,0 +1,53 @@
+# Composer dependencies
+/vendor/
+
+# Laravel & Symfony cache
+/bootstrap/cache/
+/storage/*.key
+/storage/framework/
+/storage/logs/
+
+# Environment files
+.env
+.env.*.php
+
+# PHPUnit
+.phpunit.result.cache
+
+# IDE files
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using frontend tooling)
+node_modules/
+
+# User uploaded files (optional, if not tracked)
+public/storage
+
+# Logs
+*.log
+
+# Backup & temp files
+*.bak
+*.tmp
+*.swp
+
+# Coverage reports
+coverage/
+
+
+# DomPDF temp and cache files
+storage/fonts/
+storage/framework/cache/dompdf/
+pdf/dompdf/lib/fonts/
+pdf/dompdf/lib/fonts/*.ttf
+pdf/dompdf/lib/fonts/*.ufm
+pdf/dompdf/lib/fonts/*.afm
+pdf/dompdf/tmp/
+dompdf_font_family_cache.php
